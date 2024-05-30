@@ -5,4 +5,12 @@
 //  Created by Даниил Евгеньевич on 29.05.2024.
 //
 
-import Foundation
+import UIKit
+
+extension NSLayoutConstraint {
+    func withPriority(_ priority: UILayoutPriority) -> NSLayoutConstraint {
+        
+        self.priority = priority
+        return self
+    }
+}

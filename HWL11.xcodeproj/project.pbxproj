@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		7DCF634C2BF516E60002FA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF634B2BF516E60002FA79 /* AppDelegate.swift */; };
 		7DCF634E2BF516E60002FA79 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF634D2BF516E60002FA79 /* SceneDelegate.swift */; };
-		7DCF63502BF516E60002FA79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF634F2BF516E60002FA79 /* ViewController.swift */; };
+		7DCF63502BF516E60002FA79 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF634F2BF516E60002FA79 /* SignUpViewController.swift */; };
 		7DCF63532BF516E60002FA79 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF63522BF516E60002FA79 /* Base */; };
 		7DCF63552BF516E80002FA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF63542BF516E80002FA79 /* Assets.xcassets */; };
 		7DCF63582BF516E80002FA79 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7DCF63572BF516E80002FA79 /* Base */; };
+		7DCF63802C070F280002FA79 /* TextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF637F2C070F280002FA79 /* TextFieldWithIcon.swift */; };
+		7DCF63822C07242C0002FA79 /* NSLayoutConstraint+Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF63812C07242C0002FA79 /* NSLayoutConstraint+Priority.swift */; };
+		7DCF63842C084B620002FA79 /* LogInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF63832C084B620002FA79 /* LogInVC.swift */; };
+		7DCF63862C086B250002FA79 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCF63852C086B250002FA79 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7DCF63482BF516E60002FA79 /* HWL11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HWL11.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DCF634B2BF516E60002FA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DCF634D2BF516E60002FA79 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DCF634F2BF516E60002FA79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7DCF634F2BF516E60002FA79 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		7DCF63522BF516E60002FA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DCF63542BF516E80002FA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DCF63572BF516E80002FA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DCF63592BF516E80002FA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DCF637F2C070F280002FA79 /* TextFieldWithIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldWithIcon.swift; sourceTree = "<group>"; };
+		7DCF63812C07242C0002FA79 /* NSLayoutConstraint+Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Priority.swift"; sourceTree = "<group>"; };
+		7DCF63832C084B620002FA79 /* LogInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInVC.swift; sourceTree = "<group>"; };
+		7DCF63852C086B250002FA79 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		7DCF634A2BF516E60002FA79 /* HWL11 */ = {
 			isa = PBXGroup;
 			children = (
+				7DCF63832C084B620002FA79 /* LogInVC.swift */,
 				7DCF634B2BF516E60002FA79 /* AppDelegate.swift */,
+				7DCF637F2C070F280002FA79 /* TextFieldWithIcon.swift */,
+				7DCF63852C086B250002FA79 /* CheckBox.swift */,
 				7DCF634D2BF516E60002FA79 /* SceneDelegate.swift */,
-				7DCF634F2BF516E60002FA79 /* ViewController.swift */,
+				7DCF634F2BF516E60002FA79 /* SignUpViewController.swift */,
 				7DCF63512BF516E60002FA79 /* Main.storyboard */,
 				7DCF63542BF516E80002FA79 /* Assets.xcassets */,
 				7DCF63562BF516E80002FA79 /* LaunchScreen.storyboard */,
 				7DCF63592BF516E80002FA79 /* Info.plist */,
+				7DCF63812C07242C0002FA79 /* NSLayoutConstraint+Priority.swift */,
 			);
 			path = HWL11;
 			sourceTree = "<group>";
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DCF63502BF516E60002FA79 /* ViewController.swift in Sources */,
+				7DCF63802C070F280002FA79 /* TextFieldWithIcon.swift in Sources */,
+				7DCF63502BF516E60002FA79 /* SignUpViewController.swift in Sources */,
+				7DCF63842C084B620002FA79 /* LogInVC.swift in Sources */,
+				7DCF63862C086B250002FA79 /* CheckBox.swift in Sources */,
 				7DCF634C2BF516E60002FA79 /* AppDelegate.swift in Sources */,
+				7DCF63822C07242C0002FA79 /* NSLayoutConstraint+Priority.swift in Sources */,
 				7DCF634E2BF516E60002FA79 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
